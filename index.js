@@ -5,7 +5,7 @@ var lineLength = 0;
 function takeANumber(katzDeliLine) {
   lineLength += 1;
   katzDeliLine.push(lineLength);
-  return `Welcome, ${name}. You are number ${lineLength} in line.`
+  return `Welcome. You are number ${lineLength} in line.`
 }
 
 function nowServing(katzDeliLine) {
