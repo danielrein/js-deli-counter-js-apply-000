@@ -2,9 +2,9 @@ var katzDeliLine = [];
 
 var lineLength = 0;
 
-function takeANumber(katzDeliLine, name, lineLength) {
-  katzDeliLine.push(name);
+function takeANumber(katzDeliLine) {
   lineLength += 1;
+  katzDeliLine.push(lineLength);
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`
 }
 
